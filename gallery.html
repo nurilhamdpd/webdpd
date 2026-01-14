@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rosblok Memories</title>
+    <link rel="stylesheet" href="style-gallery.css">
+</head>
+<body>
+
+<audio id="bg-music" loop>
+    <source src="music/A Sorrowful Reunion - Reality Club (Official Lyric Video).mp3" type="audio/mpeg">
+</audio>
+
+    <!-- BANNER ATAS -->
+    <div class="banner">
+        <span>💖 ROSBLOK WITH YOU 💖</span>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="gallery-container">
+
+        <!-- FOTO BESAR -->
+        <div class="photo big">
+            <img src="images/pict1.jpeg" alt="Foto utama">
+        </div>
+
+        <!-- FOTO BAWAH -->
+        <div class="photo-grid">
+            <div class="photo">
+                <img src="images/pict2.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images/pict3.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images/pict4.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict5.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict6.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict7.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict8.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict9.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict10.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict11.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict12.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict13.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict14.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict15.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images/pict16.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images2/pict17.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images2/pict18.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict19.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images2/pict20.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images2/pict21.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images2/pict22.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict23.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict24.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict25.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict26.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict27.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict28.png" alt="">
+            </div>
+             <div class="photo">
+                <img src="images2/pict29.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict30.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict31.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict32.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict33.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict34.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict35.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict36.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict37.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict38.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict39.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict40.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict41.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict42.png" alt="">
+            </div>
+            <div class="photo">
+                <img src="images2/pict43.png" alt="">
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- BACK BUTTON -->
+    <div class="back">
+        <a href="index.html">⬅ Kembali</a>
+    </div>
+
+
+<script>
+    const music = document.getElementById("bg-music");
+
+    function playMusicOnce() {
+        music.volume = 0.6;
+        music.play();
+        document.removeEventListener("click", playMusicOnce);
+    }
+
+    document.addEventListener("click", playMusicOnce);
+</script>
+
+</body>
+</html>
